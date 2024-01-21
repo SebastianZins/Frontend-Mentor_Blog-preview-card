@@ -1,0 +1,128 @@
+/* import glob-variables */
+@import 'style-guide';
+
+body {
+    background: $yellow;
+    font-size: 16px;
+    font-family: 'Figtree', sans-serif;
+}
+
+.panel {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 330px;
+    height: 500px;
+    background: $white;
+    border-radius: 15px;
+    border: 1px solid $black;
+    box-shadow: 6px 6px $black;
+    transition: all 0.3s ease;
+
+    &:hover {
+        box-shadow: 12px 12px $black;
+    }
+}
+
+.image {
+    position: relative;
+    top: 25px;
+    left: 25px;
+    width: 280px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 13px;
+    margin-bottom: 40px;
+
+    .inner-image {
+        position: relative;
+        left: -5%;
+        height: 100%;
+        width: 110%;
+        top: 0;
+    }
+}
+
+.content {
+    position: relative;
+    margin-top: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 25px 0px 25px;
+    font-size: 14px;
+}
+
+.button {
+    width: 55px;
+    background: $yellow;
+    padding: 7px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.2s ease;
+
+    &:hover {
+        color: $yellow;
+        background: $black;
+        cursor: pointer;
+    }
+}
+
+.date {
+    font-size: 12px;
+}
+
+.titel {
+    font-size: 20px;
+    font-weight: 800;
+    transition: all 0.2s ease;
+
+    &:hover {
+        color: $yellow;
+        cursor: pointer;
+    }
+}
+
+.text {
+    color: $grey;
+    line-height: 20px;
+}
+
+.profile {
+    position: absolute;
+    display: flex;
+    bottom: 25px;
+    align-items: center;
+    transition: all 0.2s ease;
+
+    .pic {
+        height: 35px;
+        width: 35px;
+        left: 0;
+        padding-right: 10px;
+    }
+
+    &:hover {
+        color: $yellow;
+        cursor: pointer;
+
+        .pic {
+            filter: grayscale(1);
+        }
+    }
+}
+
+.attribution {
+    color: $grey;
+    font-size: 11px;
+    line-height: 11px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+
+    a:link {
+        color: $grey;
+    }
+}
