@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/SebastianZins/Frontend-Mentor---Blog-preview-card)
+- Solution URL: [GitHub](https://github.com/SebastianZins/Frontend-Mentor_Blog-preview-card)
 - Live Site URL: [GitHub-Pages](https://sebastianzins.github.io/Frontend-Mentor---Blog-preview-card/)
 
 ### Built with
